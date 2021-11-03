@@ -1,0 +1,23 @@
+.card-white {
+  background-color: #fff;
+  width: 250px;
+  padding: 8px;
+}
+
+.card-white-image {
+  background-image: url('https://images.unsplash.com/photo-1635910160061-4b688344bd20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=438&q=80');
+  height: 150px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  padding: 16px;
+}
+
+.card-white:hover .btn {
+  opacity: 1;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
